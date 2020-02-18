@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS in the DOM</title>
+    </head>
+    <body>
+        <h1 id="heading-one">JS in the DOM</h1>
+        <ul>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+        </ul>
+        <ol class="ordered-list">
+            <li class="ordered-items">1</li>
+            <li class="ordered-items">2</li>
+            <li class="ordered-items">3</li>
+        </ol>
+        <input id="input-box" onkeypress="handleInput()"/>
+        <button onclick="handleClick()">Click Me!</button>
+        <input id="input-listener"/>
+        <div class="parent" onclick="handleClick()">
+            <button class="child">Click this button</button>
+        </div>
+        <form>
+            <input />
+            <input />
+            <input id="form-btn" type="submit"/>
+        </form>
+        <script src="index.js"></script>
+    </body>
+</html>
